@@ -13,6 +13,7 @@
 		E99E03F31CEA27FB00B53D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99E03F11CEA27FB00B53D3F /* Main.storyboard */; };
 		E99E03F51CEA27FB00B53D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99E03F41CEA27FB00B53D3F /* Assets.xcassets */; };
 		E99E03F81CEA27FB00B53D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99E03F61CEA27FB00B53D3F /* LaunchScreen.storyboard */; };
+		E99E04011CEA304F00B53D3F /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E99E04001CEA304F00B53D3F /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E99E03F41CEA27FB00B53D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E99E03F71CEA27FB00B53D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E99E03F91CEA27FB00B53D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99E03FF1CEA304F00B53D3F /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		E99E04001CEA304F00B53D3F /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				E99E03F61CEA27FB00B53D3F /* LaunchScreen.storyboard */,
 				E99E03F91CEA27FB00B53D3F /* Info.plist */,
 				E99E03E81CEA27FB00B53D3F /* Supporting Files */,
+				E99E03FF1CEA304F00B53D3F /* MyScrollView.h */,
+				E99E04001CEA304F00B53D3F /* MyScrollView.m */,
 			);
 			path = MyScrollView;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E99E03F01CEA27FB00B53D3F /* ViewController.m in Sources */,
+				E99E04011CEA304F00B53D3F /* MyScrollView.m in Sources */,
 				E99E03ED1CEA27FB00B53D3F /* AppDelegate.m in Sources */,
 				E99E03EA1CEA27FB00B53D3F /* main.m in Sources */,
 			);
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moiseevanton.MyScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moiseevanton.MyScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
